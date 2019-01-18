@@ -44,6 +44,7 @@ body{
     line-height: 58px;
     text-transform: uppercase;
     letter-spacing: -2.4px;
+    text-decoration: none;
   }
   &--subTitle{
     display: inline-block;
@@ -578,16 +579,16 @@ body{
     line-height: 60px;
     padding-bottom: 18px;
   }
-  &-box--h2-active{
+
+  &-box:hover &-box--price-active{
+    background: #008ed6;
+  }
+  &-box:hover &-box--h2-active{
     color: #008ed6;
   }
-  &-box--price-active{
-    background: #008ed6;;
-  }
-  &-box--price-span-active,
-  &-box--price-h2-active,
-  &-box--price-p-active
-  {
+  &-box:hover &-box--price-span-active,
+  &-box:hover &-box--price-h2-active,
+  &-box:hover &-box--price-p-active{
     color: #fff;
   }
 }

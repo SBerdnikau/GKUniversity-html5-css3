@@ -49,7 +49,8 @@ body {
   font-weight: 700;
   line-height: 58px;
   text-transform: uppercase;
-  letter-spacing: -2.4px; }
+  letter-spacing: -2.4px;
+  text-decoration: none; }
 .promo-left--subTitle {
   display: inline-block;
   width: 44px;
@@ -495,11 +496,11 @@ body {
     font-weight: 600;
     line-height: 60px;
     padding-bottom: 18px; }
-  .tariffPlans-box--h2-active {
-    color: #008ed6; }
-  .tariffPlans-box--price-active {
+  .tariffPlans-box:hover .tariffPlans-box--price-active {
     background: #008ed6; }
-  .tariffPlans-box--price-span-active, .tariffPlans-box--price-h2-active, .tariffPlans-box--price-p-active {
+  .tariffPlans-box:hover .tariffPlans-box--h2-active {
+    color: #008ed6; }
+  .tariffPlans-box:hover .tariffPlans-box--price-span-active, .tariffPlans-box:hover .tariffPlans-box--price-h2-active, .tariffPlans-box:hover .tariffPlans-box--price-p-active {
     color: #fff; }
 
 .contacts {
