@@ -1,0 +1,644 @@
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 300;
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf"); }
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf"); }
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf"); }
+@font-face {
+  font-family: Quicksand;
+  font-weight: 700;
+  src: url("../fonts/Quicksand/Quicksand-Bold.ttf"); }
+* {
+  margin: 0;
+  padding: 0; }
+
+html,
+body {
+  min-height: 100%;
+  font-family: "Source Sans Pro",sans-serif; }
+
+.container {
+  width: 1140px;
+  margin: 0 auto; }
+
+.promo {
+  background: url("../images/promo/promo-bg.jpg") no-repeat;
+  background-position: center;
+  background-color: #15141a; }
+
+.promo-flex {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px; }
+  .promo-flex--mainTitle {
+    display: flex;
+    justify-content: space-between; }
+  .promo-flex--btn {
+    display: flex; }
+
+.promo-left--logo {
+  color: #ffffff;
+  font-family: Quicksand,sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 58px;
+  text-transform: uppercase;
+  letter-spacing: -2.4px;
+  text-decoration: none; }
+.promo-left--subTitle {
+  display: inline-block;
+  width: 44px;
+  opacity: 0.3;
+  color: #ffffff;
+  font-size: 9px;
+  padding-left: 20px;
+  font-weight: 400;
+  line-height: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.26px; }
+
+.promo-menu {
+  display: flex;
+  list-style-type: none; }
+  .promo-menu--link {
+    color: #fffefe;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 58px;
+    text-decoration: none;
+    padding: 0 12px 12px 12px; }
+    .promo-menu--link:hover {
+      border-bottom: 2px solid #008ed6; }
+
+.promo-mainTitle--h2 {
+  width: 478px;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 48px;
+  padding-bottom: 32px; }
+.promo-mainTitle--h3 {
+  width: 478px;
+  color: #008ed6;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  line-height: 48px; }
+.promo-mainTitle--p {
+  width: 478px;
+  color: #999999;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 64px; }
+
+.btn-downloadNow {
+  box-shadow: 0 0 3px rgba(3, 3, 3, 0.1);
+  background-color: #008ed6;
+  padding: 20px 28px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  text-decoration: none;
+  margin-bottom: 107px;
+  text-transform: uppercase;
+  margin-right: 20px; }
+  .btn-downloadNow:hover {
+    background: #fff;
+    color: #008ed6; }
+
+.btn-viewFeatures {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  padding: 20px 28px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 107px;
+  background: linear-gradient(-225deg, rgba(21, 20, 26, 0.4) 0%, rgba(21, 20, 26, 0) 100%); }
+  .btn-viewFeatures:hover {
+    background: #fff;
+    color: #008ed6; }
+
+.promo-phoneImg {
+  background: url("../images/promo/promo-phone.png") no-repeat;
+  width: 510px; }
+
+.feature {
+  padding-top: 65px; }
+  .feature-h3 {
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 21px; }
+  .feature-h2 {
+    color: #1a1a1a;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    padding-bottom: 35px; }
+  .feature-deliver {
+    display: flex;
+    justify-content: center; }
+  .feature-deliver .deliver {
+    width: 21px;
+    height: 2px;
+    background-color: #008ed6;
+    margin: 0 2px; }
+  .feature-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 74px;
+    padding-bottom: 76px;
+    border-bottom: 1px solid #ededed; }
+
+.feature-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .feature-box--circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    border: 1px solid #e0e0e0;
+    background-color: #ffffff;
+    margin-bottom: 35px; }
+  .feature-box--h2 {
+    text-align: center;
+    color: #1a1a1a;
+    font-size: 24px;
+    line-height: 20px;
+    padding-bottom: 24px; }
+  .feature-box--p {
+    text-align: center;
+    width: 229px;
+    color: #999999;
+    font-size: 18px;
+    font-weight: 400; }
+
+.devices {
+  padding-top: 66px; }
+  .devices-flex {
+    display: flex;
+    justify-content: space-between; }
+  .devices-h3 {
+    width: 466px;
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    padding-bottom: 21px; }
+  .devices-h2 {
+    width: 466px;
+    color: #1a1a1a;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    padding-bottom: 35px; }
+  .devices-deliver {
+    display: flex; }
+  .devices-deliver .deliver {
+    width: 21px;
+    height: 2px;
+    background-color: #008ed6;
+    margin: 0 2px; }
+  .devices-p {
+    width: 466px;
+    color: #999999;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 35px; }
+  .devices-details {
+    list-style-type: none; }
+    .devices-details--list {
+      font-size: 18px;
+      padding-top: 35px;
+      color: #1a1a1a;
+      font-weight: 600; }
+    .devices-details--img {
+      margin-right: 10px; }
+  .devices-imgPhone {
+    background: url("../images/devices/devices-phone.png") no-repeat;
+    width: 510px;
+    height: 621px; }
+
+.customize {
+  padding-top: 66px;
+  background-color: #f2f2f2; }
+  .customize-flex {
+    display: flex;
+    justify-content: space-between; }
+  .customize-h3 {
+    width: 466px;
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    padding-bottom: 21px; }
+  .customize-h2 {
+    width: 466px;
+    color: #1a1a1a;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    padding-bottom: 35px; }
+  .customize-deliver {
+    display: flex; }
+  .customize-deliver .deliver {
+    width: 21px;
+    height: 2px;
+    background-color: #008ed6;
+    margin: 0 2px; }
+  .customize-p {
+    width: 466px;
+    color: #999999;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 35px; }
+  .customize-imgPhone {
+    background: url("../images/customize/customize-iPhone_5.png") no-repeat;
+    width: 718px;
+    height: 490px; }
+
+.pricingsAndPlans {
+  background: url("../images/pricingAndPlans/pricingAndPlane-bg.jpg") no-repeat;
+  background-position: center;
+  background-color: #15141a;
+  padding: 64px 0; }
+  .pricingsAndPlans-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 74px;
+    padding-bottom: 76px; }
+  .pricingsAndPlans-h3 {
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 21px; }
+  .pricingsAndPlans-h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    padding-bottom: 35px; }
+  .pricingsAndPlans-deliver {
+    display: flex;
+    justify-content: center; }
+  .pricingsAndPlans-deliver .deliver {
+    width: 21px;
+    height: 2px;
+    background-color: #008ed6;
+    margin: 0 2px; }
+  .pricingsAndPlans-left--p {
+    width: 546px;
+    color: #ffffff;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 26px; }
+  .pricingsAndPlans-left--img {
+    float: left;
+    margin-right: 25px; }
+  .pricingsAndPlans-left--author {
+    overflow: hidden;
+    width: 172px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px 0; }
+  .pricingsAndPlans-left--profession {
+    overflow: hidden;
+    width: 172px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700; }
+  .pricingsAndPlans-plaginacion {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.circle {
+  margin: 0 11px;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2); }
+  .circle-active {
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    background-color: #ffffff; }
+
+.linkBox {
+  background-color: #15141a;
+  padding: 60px 0; }
+  .linkBox-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .linkBox-left--h2 {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48px; }
+  .linkBox-left--h2-span {
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 600; }
+  .linkBox-right--btn-viewFeatures {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    padding: 20px 28px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 107px;
+    background: linear-gradient(-225deg, rgba(21, 20, 26, 0.4) 0%, rgba(21, 20, 26, 0) 100%); }
+    .linkBox-right--btn-viewFeatures:hover {
+      background: #fff;
+      color: #008ed6; }
+  .linkBox-right--bth-downloadNow {
+    box-shadow: 0 0 3px rgba(3, 3, 3, 0.1);
+    background-color: #008ed6;
+    padding: 20px 28px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    text-decoration: none;
+    margin-bottom: 107px;
+    text-transform: uppercase;
+    margin-left: 20px; }
+    .linkBox-right--bth-downloadNow:hover {
+      background: #fff;
+      color: #008ed6; }
+
+.tariffPlans {
+  padding: 60px 0; }
+  .tariffPlans-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 74px;
+    padding-bottom: 76px; }
+  .tariffPlans-h3 {
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 21px; }
+  .tariffPlans-h2 {
+    color: #1a1a1a;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    padding-bottom: 35px; }
+  .tariffPlans-deliver {
+    display: flex;
+    justify-content: center; }
+  .tariffPlans-deliver .deliver {
+    width: 21px;
+    height: 2px;
+    background-color: #008ed6;
+    margin: 0 2px; }
+  .tariffPlans-box {
+    border: 1px solid #e0e0e0;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .tariffPlans-box--h2 {
+    color: #1a1a1a;
+    width: 270px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 30px 0 25px;
+    border-bottom: 1px solid #e0e0e0; }
+  .tariffPlans-box--p {
+    color: #999999;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    padding: 52px 35px 0 35px;
+    border-top: 1px solid #e0e0e0; }
+  .tariffPlans-box--p---a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration: none;
+    color: #008ed6; }
+  .tariffPlans-box--btnOrder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 77px;
+    border: 1px solid #e0e0e0;
+    background-color: #ffffff;
+    padding: 20px 42px;
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 64px 0 48px 0; }
+    .tariffPlans-box--btnOrder:hover {
+      background: #008ed6;
+      color: #fff; }
+  .tariffPlans-box--price {
+    padding: 43px 93px 35px 92px; }
+  .tariffPlans-box--price-p {
+    width: 85px;
+    color: #999999;
+    font-size: 18px;
+    font-weight: 400; }
+  .tariffPlans-box--price-span {
+    color: #1a1a1a;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 35px;
+    vertical-align: top; }
+  .tariffPlans-box--price-h2 {
+    display: inline-block;
+    color: #1a1a1a;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 60px;
+    padding-bottom: 18px; }
+  .tariffPlans-box:hover .tariffPlans-box--price-active {
+    background: #008ed6; }
+  .tariffPlans-box:hover .tariffPlans-box--h2-active {
+    color: #008ed6; }
+  .tariffPlans-box:hover .tariffPlans-box--price-span-active, .tariffPlans-box:hover .tariffPlans-box--price-h2-active, .tariffPlans-box:hover .tariffPlans-box--price-p-active {
+    color: #fff; }
+
+.contacts {
+  background-color: #ededed;
+  padding: 60px 0 370px 0;
+  position: relative; }
+  .contacts-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 74px;
+    padding-bottom: 76px; }
+  .contacts-h3 {
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 21px; }
+  .contacts-h2 {
+    color: #1a1a1a;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    padding-bottom: 35px; }
+  .contacts-deliver {
+    display: flex;
+    justify-content: center; }
+  .contacts-deliver .deliver {
+    width: 21px;
+    height: 2px;
+    background-color: #008ed6;
+    margin: 0 2px; }
+  .contacts-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 165px; }
+  .contacts-box--img {
+    padding-bottom: 32px; }
+  .contacts-box--address {
+    text-align: center;
+    color: #999999;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px; }
+  .contacts-form {
+    padding: 60px 85px 40px 66px;
+    width: 626px;
+    height: 264px;
+    background-color: #15141a;
+    position: absolute;
+    right: 300px;
+    bottom: -60px;
+    z-index: 1; }
+  .contacts-form--flex {
+    display: flex; }
+  .contacts-form--left {
+    width: 300px;
+    padding-right: 20px; }
+  .contacts-form--right {
+    width: 300px; }
+  .contacts-form--input {
+    width: 264px;
+    height: 50px;
+    padding: 0 18px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: #15141a;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    text-transform: uppercase; }
+  .contacts-form--message {
+    width: 268px;
+    height: 155px;
+    resize: none;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: #15141a;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    padding: 20px 18px;
+    text-transform: uppercase; }
+  .contacts-form--btnSend {
+    box-shadow: 0 0 3px rgba(3, 3, 3, 0.1);
+    background-color: #008ed6;
+    padding: 20px 33px;
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: right; }
+    .contacts-form--btnSend:hover {
+      background: #fff;
+      color: #008ed6; }
+
+.map {
+  height: 460px; }
+
+.copyright {
+  padding: 60px 0 45px 0;
+  background-color: #15141a; }
+  .copyright-flex {
+    display: flex;
+    justify-content: center; }
+  .copyright-link {
+    text-decoration: none; }
+  .copyright-info {
+    color: #444348;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+    padding-top: 32px;
+    text-transform: uppercase; }
+
+.fa-behance,
+.fa-dribbble,
+.fa-twitter,
+.fa-facebook-f,
+.fa-linkedin-in {
+  width: 18px;
+  height: 18px;
+  color: #444348;
+  padding: 0 16px; }
+  .fa-behance:hover,
+  .fa-dribbble:hover,
+  .fa-twitter:hover,
+  .fa-facebook-f:hover,
+  .fa-linkedin-in:hover {
+    color: #008ed6; }
+
+/*# sourceMappingURL=main.css.map */
